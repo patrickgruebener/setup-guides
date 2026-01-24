@@ -6,7 +6,21 @@ Zentrale Sammlung wiederverwendbarer Setup-Guides für Deployment, Infrastruktur
 
 Dieses Repository dient als zentrale Dokumentations-Quelle für wiederkehrende Setup-Prozesse. Anstatt in jedem Projekt die gleichen Deployment-Schritte zu dokumentieren, kann einfach auf diese Guides verlinkt werden.
 
+## Schnellstart für neue Projekte
+
+**CLAUDE.md Template verwenden:**
+```bash
+# Im neuen Projekt-Verzeichnis
+cp ~/Documents/Freelance/setup-guides/templates/CLAUDE.md ./CLAUDE.md
+```
+
+Dann Platzhalter anpassen und committen. [Vollständige Anleitung](templates/README.md)
+
 ## Verfügbare Guides
+
+### Templates
+- [CLAUDE.md Template](templates/CLAUDE.md) - Wiederverwendbares Projekt-Dokumentations-Template
+- [Template-Verwendung](templates/README.md) - Anleitung zur Template-Nutzung
 
 ### Deployment
 - [Dokploy + GitHub Auto-Deployment](deployment/dokploy-github-autodeploy.md) - Kompletter Guide für automatisches Deployment von GitHub zu Dokploy (PaaS)
@@ -40,7 +54,8 @@ Die Guides sind als Vorlagen gedacht. Für spezifische Projekte:
 
 ```
 setup-guides/
-├── deployment/          # Deployment-Strategien (Dokploy, Docker, etc.)
+├── templates/          # Projekt-Templates (CLAUDE.md, etc.)
+├── deployment/         # Deployment-Strategien (Dokploy, Docker, etc.)
 ├── git/                # Git-Workflows und SSH-Setup
 ├── domains/            # DNS und Domain-Konfiguration (geplant)
 ├── tools/              # Tool-Installationen (n8n, etc.) (geplant)
