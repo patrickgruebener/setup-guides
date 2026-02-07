@@ -28,6 +28,9 @@ Dann Platzhalter anpassen und committen. [Vollständige Anleitung](templates/REA
 ### Git & SSH
 - [SSH-Key Setup](git/ssh-key-setup.md) - SSH-Keys generieren und zu GitHub/VPS hinzufügen
 
+### Projekte
+- [horstgruebener.de](projects/horstgruebener/README.md) - Projekt-Doku (Setup, Deployment, Betrieb)
+
 ## Verwendung
 
 ### In anderen Projekten referenzieren
@@ -57,6 +60,7 @@ setup-guides/
 ├── templates/          # Projekt-Templates (CLAUDE.md, etc.)
 ├── deployment/         # Deployment-Strategien (Dokploy, Docker, etc.)
 ├── git/                # Git-Workflows und SSH-Setup
+├── projects/           # Projekt-spezifische Dokus (Setup, Betrieb, Links)
 ├── domains/            # DNS und Domain-Konfiguration (geplant)
 ├── tools/              # Tool-Installationen (n8n, etc.) (geplant)
 └── monitoring/         # Monitoring-Setups (geplant)
