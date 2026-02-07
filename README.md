@@ -29,7 +29,8 @@ Dann Platzhalter anpassen und committen. [Vollständige Anleitung](templates/REA
 - [SSH-Key Setup](git/ssh-key-setup.md) - SSH-Keys generieren und zu GitHub/VPS hinzufügen
 
 ### Projekte
-- [horstgruebener.de](projects/horstgruebener/README.md) - Projekt-Doku (Setup, Deployment, Betrieb)
+- [horstgruebener.de](projects/horstgruebener/README.md) - Projekt-Doku (Vite + React SPA, Dokploy Deployment)
+- [vollgasriegel.de](projects/vollgas-riegel/README.md) - Projekt-Doku (WordPress + WooCommerce, Docker lokal)
 
 ## Verwendung
 
