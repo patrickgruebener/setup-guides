@@ -8,19 +8,34 @@ Dieses Repository dient als zentrale Dokumentations-Quelle für wiederkehrende S
 
 ## Schnellstart für neue Projekte
 
-**CLAUDE.md Template verwenden:**
+### Next.js SaaS Starter (empfohlen)
+Produktionsreifes SaaS-Template mit Auth, Payments, Teams, und Dashboard.
+
+```bash
+# Neues Projekt erstellen
+~/Documents/Freelance/setup-guides/scripts/new-saas-project.sh mein-projekt-name
+```
+
+[Vollständiger Workflow](workflows/vibe-coding-workflow.md)
+
+### Generisches CLAUDE.md Template
 ```bash
 # Im neuen Projekt-Verzeichnis
 cp ~/Documents/Freelance/setup-guides/templates/CLAUDE.md ./CLAUDE.md
 ```
 
-Dann Platzhalter anpassen und committen. [Vollständige Anleitung](templates/README.md)
+Dann Platzhalter anpassen und committen. [Anleitung](templates/README.md)
 
 ## Verfügbare Guides
 
-### Templates
+### Templates & Workflows
+- [Next.js SaaS Starter](templates/next-saas-starter/) - Vollständiges SaaS-Template mit Auth, Payments, Teams
+- [Vibe Coding Workflow](workflows/vibe-coding-workflow.md) - Kompletter Workflow für schnelles App-Building mit Claude Code
 - [CLAUDE.md Template](templates/CLAUDE.md) - Wiederverwendbares Projekt-Dokumentations-Template
 - [Template-Verwendung](templates/README.md) - Anleitung zur Template-Nutzung
+
+### Scripts
+- [new-saas-project.sh](scripts/new-saas-project.sh) - Generiert neues Projekt aus next-saas-starter Template
 
 ### Deployment
 - [Dokploy + GitHub Auto-Deployment](deployment/dokploy-github-autodeploy.md) - Kompletter Guide für automatisches Deployment von GitHub zu Dokploy (PaaS)
@@ -58,7 +73,9 @@ Die Guides sind als Vorlagen gedacht. Für spezifische Projekte:
 
 ```
 setup-guides/
-├── templates/          # Projekt-Templates (CLAUDE.md, etc.)
+├── templates/          # Projekt-Templates (CLAUDE.md, next-saas-starter)
+├── scripts/            # Automatisierungs-Skripte (new-saas-project.sh)
+├── workflows/          # Workflow-Dokumentationen (vibe-coding-workflow.md)
 ├── deployment/         # Deployment-Strategien (Dokploy, Docker, etc.)
 ├── git/                # Git-Workflows und SSH-Setup
 ├── projects/           # Projekt-spezifische Dokus (Setup, Betrieb, Links)
