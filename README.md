@@ -29,9 +29,12 @@ Dann Platzhalter anpassen und committen. [Anleitung](templates/README.md)
 ## Verfügbare Guides
 
 ### Templates & Workflows
+- [Claude Code Professional Setup](workflows/claude-code-professional-setup.md) - Vom Vibe Coding zum AI Engineering (Projekt-Blueprint, CLAUDE.md Strategie, Rules, Skills, Testing)
 - [Next.js SaaS Starter](templates/next-saas-starter/) - Vollständiges SaaS-Template mit Auth, Payments, Teams
 - [Vibe Coding Workflow](workflows/vibe-coding-workflow.md) - Kompletter Workflow für schnelles App-Building mit Claude Code
 - [CLAUDE.md Template](templates/CLAUDE.md) - Wiederverwendbares Projekt-Dokumentations-Template
+- [Task Template](templates/task-template.md) - Feature-Spec Template mit Akzeptanzkriterien
+- [ADR Template](templates/adr-template.md) - Architecture Decision Record Template
 - [Template-Verwendung](templates/README.md) - Anleitung zur Template-Nutzung
 
 ### Scripts
@@ -44,6 +47,7 @@ Dann Platzhalter anpassen und committen. [Anleitung](templates/README.md)
 - [SSH-Key Setup](git/ssh-key-setup.md) - SSH-Keys generieren und zu GitHub/VPS hinzufügen
 
 ### Projekte
+- [coach-app](projects/coach-app/README.md) - KI-Trainingscoach SaaS (eigenstaendiges Repo, siehe Verweis)
 - [horstgruebener.de](projects/horstgruebener/README.md) - Projekt-Doku (Vite + React SPA, Dokploy Deployment)
 - [vollgasriegel.de](projects/vollgas-riegel/README.md) - Projekt-Doku (WordPress + WooCommerce, Docker lokal)
 
