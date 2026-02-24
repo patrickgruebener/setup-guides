@@ -35,6 +35,7 @@ projekt/
 │   └── adr-001-*.md            # Architektur-Entscheidungen
 ├── .claude/
 │   ├── settings.local.json     # Permissions (erlaubte Commands)
+│   ├── memory.md               # Append-only Session-Log (committed in git)
 │   ├── rules/                  # Pfad-spezifische Regeln
 │   │   └── *.md                # YAML frontmatter mit paths: ["src/**"]
 │   └── skills/                 # Domain-spezifisches Wissen
@@ -54,6 +55,7 @@ projekt/
 | Coding Standards | `docs/ai/CONVENTIONS.md` | Nur geladen wenn Claude Code liest |
 | Regeln fuer bestimmte Pfade | `.claude/rules/*.md` | Automatisch geladen bei Arbeit im Pfad |
 | Domain-Wissen | `.claude/skills/` | Nur geladen auf Anfrage oder bei Bedarf |
+| Projektspez. Session-Learnings | `.claude/memory.md` | Append-only, committed, wird bei Session-Start gelesen |
 | Feature-Specs | `tasks/` | Pro Task eine Datei |
 | Architektur-Entscheidungen | `adr/` | Historische Begruendungen |
 
@@ -234,6 +236,7 @@ Erlaubte Commands explizit freigeben:
 - [ ] `CLAUDE.md` erstellen (Commands + Critical Rules, <100 Zeilen)
 - [ ] `docs/ai/CONTEXT.md` anlegen (Architektur, Schema, APIs)
 - [ ] `docs/ai/CONVENTIONS.md` anlegen (Coding Standards)
+- [ ] `.claude/memory.md` anlegen (leerer Header reicht, wird durch Sessions befuellt)
 - [ ] `.claude/rules/` fuer kritische Verzeichnisse
 - [ ] `.claude/skills/` fuer Domain-Wissen (falls relevant)
 - [ ] `tasks/task-template.md` bereitstellen

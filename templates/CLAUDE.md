@@ -184,6 +184,15 @@ dig +short [domain.com] A
 
 ---
 
+## Project Memory
+
+Session-Protokoll in `.claude/memory.md`. Wird mit dem Projekt committed.
+Format: `- YYYY-MM-DD | Was | Warum`
+
+Zu Beginn jeder Session lesen. Sofort schreiben wenn etwas entdeckt wird.
+
+---
+
 ## Notizen
 
 [Platz für zusätzliche Notizen, Besonderheiten, wichtige Entscheidungen, etc.]
